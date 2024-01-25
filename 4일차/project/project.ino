@@ -16,36 +16,37 @@ void setup() {
 
   move(90, 90, 90, 90);
 
-  delay(1000);
+  delay(300);
 }
 
 void loop() {
-  // 1
   move(90, 45, 135, 90);
-  delay(1000);
+  delay(600);
 
+  // 1
+  move(150, 45, 135, 0);
+  delay(300);
   move(150, 45, 135, 90);
-  delay(500);
+  delay(100);
   move(150, 45, 135, 0);
   delay(100);
-  move(150, 45, 135, 90);
-  delay(300);
 
   // 2
+  move(45, 45, 135, 0);
+  delay(500);
   move(45, 45, 135, 90);
-  delay(800);
+  delay(100);
   move(45, 45, 135, 0);
   delay(100);
-  move(45, 45, 135, 90);
-  delay(300);
 
   // 3
-  move(120, 45, 135, 90);
-  delay(500);
   move(120, 45, 135, 0);
-  delay(100);
-  move(120, 45, 135, 90);
   delay(300);
+  move(120, 45, 135, 90);
+  delay(100);
+  move(120, 45, 135, 0);
+  delay(700);
+
 }
 
 void move(int a, int b, int c, int d) {
